@@ -259,9 +259,16 @@ url: https://swapnilbamble1438.github.io/EcommerceApplication/
 
   - Now try running Project and Check if the changes are done or not.
 
-   
+### To add new images for the products through admin
+- In Eclipse
+- Open EcommerceApp > src > main > java > com > dao.
+- Now, make changes in this file, especially in the line (98):
 
-
+                 public int  addproduct(HttpServletRequest request) {
+		                  String path = "C:/Users/Swapnil/eclipse-workspace/imagetable2/src/main/webapp/";
+  
+  (Modify the destination folder for adding new images)
+	
 ### Project Creator: Swapnil Bamble
 
 
